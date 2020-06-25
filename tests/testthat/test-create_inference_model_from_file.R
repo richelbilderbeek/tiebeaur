@@ -1,4 +1,4 @@
-test_that("use", {
+test_that("test use", {
 
   beast2_filename <- tempfile()
   inference_model <- beautier::create_test_inference_model()
