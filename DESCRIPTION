@@ -1,0 +1,25 @@
+Package: xmltob2im
+Type: Package
+Title: XML To BEAST2 Inference Model
+Version: 2.1.3
+Authors@R: c(
+    person("Richèl J.C.", "Bilderbeek", email = "richel@richelbilderbeek.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049")))
+Maintainer: Richèl J.C. Bilderbeek <richel@richelbilderbeek.nl>
+Description: 'BEAST2' (<https://www.beast2.org>) is a widely used
+    Bayesian phylogenetic tool, that uses DNA/RNA/protein data
+    and many model priors to create a posterior of jointly estimated 
+    phylogenies and parameters.
+    The 'BEAST2' tool 'BEAUti2' allows to create a 'BEAST2' input file,
+    which is an XML file. 
+    This package allows to read such an XML an convert it to a BEAST2
+    inference model, as used by 'beautier'
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports:
+    beautier (>= 2.3.5)
+URL: https://github.com/richelbilderbeek/xmltob2im
+BugReports: https://github.com/richelbilderbeek/xmltob2im
+Language: en-US
+VignetteBuilder: knitr
