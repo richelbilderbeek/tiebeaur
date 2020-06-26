@@ -21,7 +21,7 @@ Imports:
     beautier (>= 2.3.5),
     testthat,
     xml2
-URL: https://github.com/richelbilderbeek/xmltob2im
-BugReports: https://github.com/richelbilderbeek/xmltob2im
+URL: https://github.com/richelbilderbeek/tiebeaur
+BugReports: https://github.com/richelbilderbeek/tiebeaur
 Language: en-US
 

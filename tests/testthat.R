@@ -1,4 +1,4 @@
 library(testthat)
-library(xmltob2im)
+library(tiebeaur)
 
-test_check("xmltob2im")
+test_check("tiebeaur")

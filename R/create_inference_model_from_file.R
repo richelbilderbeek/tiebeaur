@@ -12,6 +12,6 @@ create_inference_model_from_file <- function(xml_filename) {
   xml_run_distr_distr <- xml2::xml_child(xml_run_distr, "distribution")
   xml_run_distr_distr_distr <- xml2::xml_child(xml_run_distr_distr, "distribution")
   spec <- xml2::xml_attr(xml_run_distr_distr_distr, "spec")
-  inference_model$tree_prior <- xmltob2im::convert_spec_to_tree_prior(spec)
+  inference_model$tree_prior <- tiebeaur::convert_spec_to_tree_prior(spec)
   inference_model
 }
