@@ -2,3 +2,4 @@
 
 export(convert_spec_to_tree_prior)
 export(create_inference_model_from_file)
+export(create_inference_models_from_files)

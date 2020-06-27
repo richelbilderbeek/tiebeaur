@@ -7,5 +7,9 @@ convert_spec_to_tree_prior <- function(
   if (spec == "beast.evolution.speciation.YuleModel") {
     return(beautier::create_yule_tree_prior())
   }
+  if (spec == "beast.evolution.speciation.BirthDeathGernhard08Model") {
+    return(beautier::create_bd_tree_prior())
+  }
+
   stop("Invalid 'spec'. Actual value: ", spec)
 }
