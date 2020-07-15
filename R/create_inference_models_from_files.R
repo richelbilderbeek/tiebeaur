@@ -2,6 +2,7 @@
 #' XML input files.
 #' @param xml_filenames paths to one or more BEAST2 XML input files,
 #'   as can be created by BEAUti or beautier
+#' @author Richèl J.C. Bilderbeek
 #' @export
 create_inference_models_from_files <- function(
   xml_filenames

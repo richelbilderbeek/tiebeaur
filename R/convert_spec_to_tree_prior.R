@@ -1,5 +1,6 @@
 #' Convert the \code{spec} to a tree prior
 #' @param spec the XML \code{spec} attribute
+#' @author Richèl J.C. Bilderbeek
 #' @export
 convert_spec_to_tree_prior <- function(
   spec

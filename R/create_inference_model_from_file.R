@@ -2,6 +2,7 @@
 #' @param xml_filename name of a BEAST2 XML input file,
 #'   as can be created by BEAUti2 or
 #'   using \link[beautier]{create_beast2_input_file_from_model}
+#' @author Richèl J.C. Bilderbeek
 #' @export
 create_inference_model_from_file <- function(xml_filename) {
   inference_model <- beautier::create_test_inference_model()
