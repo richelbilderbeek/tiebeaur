@@ -15,7 +15,6 @@ Description: 'BEAST2' (<https://www.beast2.org>) is a widely used
     inference model, as used by 'beautier'.
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.1.0
 Imports:
     beautier (>= 2.3.5),
